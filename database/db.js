@@ -3,8 +3,8 @@ const mysql = require('mysql'),
     con = mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: 'D3$4rr0ll0.',
-        database: 'kalo_db'
+        password: '',
+        database: ''
     });
     
 con.connect((err) => {
